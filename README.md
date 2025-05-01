@@ -10,7 +10,7 @@ https://emscripten.org/docs/getting_started/downloads.html
 Para compilar o código basta rodar o seguinte comando
 
 ```
-emcc -s WASM=1 -s EXPORTED_RUNTIME_METHODS=["cwrap","HEAP32","FS"] main.c
+emcc -s WASM=1 -s EXPORTED_RUNTIME_METHODS=["cwrap","FS"] main.c
 ```
 
 ## 3 - Rodar servidor
